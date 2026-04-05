@@ -1,11 +1,15 @@
 import keerthanaBride from "@/assets/keerthana-bride.jpeg";
 import keerthanaWings from "@/assets/keerthana-wings.jpeg";
 import keerthanaChic from "@/assets/keerthana-chic.jpeg";
+import keerthanaBeach from "@/assets/keerthana-beach.jpeg";
+import keerthanaGlam from "@/assets/keerthana-glam.jpeg";
 
 const photos = [
   { src: keerthanaBride, caption: "Radiant Bride" },
   { src: keerthanaWings, caption: "Free Spirit" },
   { src: keerthanaChic, caption: "Always Chic" },
+  { src: keerthanaBeach, caption: "Sun Kissed" },
+  { src: keerthanaGlam, caption: "Glamorous" },
 ];
 
 const PhotoGalleryPage = () => {
@@ -19,8 +23,8 @@ const PhotoGalleryPage = () => {
         {photos.map((photo, i) => (
           <div
             key={i}
-            className={`relative overflow-hidden rounded-lg ${i === 0 ? "row-span-2" : ""}`}
-            style={{ minHeight: i === 0 ? "260px" : "120px" }}
+            className={`relative overflow-hidden rounded-lg ${i === 0 ? "row-span-2 col-span-2" : ""}`}
+            style={{ minHeight: i === 0 ? "280px" : "140px" }}
           >
             <img
               src={photo.src}
