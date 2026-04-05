@@ -33,7 +33,7 @@ const SquadPage = () => {
               key={member.name}
               className="bg-card border border-border rounded-xl p-4 flex flex-col items-center text-center transition-transform duration-300 hover:scale-105"
             >
-              <div className="w-20 h-20 rounded-full mb-4 border-2 border-gold/30 overflow-hidden">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full mb-2 border-2 border-gold/30 overflow-hidden">
                 <img
                   src={member.photo}
                   alt={member.name}
