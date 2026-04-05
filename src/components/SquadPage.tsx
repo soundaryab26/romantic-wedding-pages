@@ -47,7 +47,7 @@ const SquadPage = () => {
           ))}
         </div>
 
-        <p className="text-foreground/40 text-xs italic mb-8">
+        <p className="text-foreground/40 text-xs italic mb-4">
           "Behind every bride-to-be is a squad that never sleeps ✨"
         </p>
 
