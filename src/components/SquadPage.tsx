@@ -37,7 +37,7 @@ const SquadPage = () => {
                 <img
                   src={member.photo}
                   alt={member.name}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
               <span className="font-serif text-sm sm:text-lg text-foreground mb-0.5">{member.name}</span>
