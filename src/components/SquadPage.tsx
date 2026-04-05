@@ -18,31 +18,31 @@ const squadMembers = [
 
 const SquadPage = () => {
   return (
-    <section id="page-5" className="page-section bg-background">
+    <section id="page-5" className="page-section bg-background py-8">
       <div className="absolute inset-0 pointer-events-none" />
-      <div className="relative z-10 flex flex-col items-center text-center px-6 w-full max-w-5xl">
-        <p className="text-blush text-xs tracking-[0.3em] uppercase mb-4 font-light">The ones who made it happen</p>
-        <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-foreground font-light mb-2">
+      <div className="relative z-10 flex flex-col items-center text-center px-4 w-full max-w-5xl overflow-y-auto max-h-[100vh]">
+        <p className="text-blush text-xs tracking-[0.3em] uppercase mb-2 font-light">The ones who made it happen</p>
+        <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl text-foreground font-light mb-1">
           Her Ride-or-Die Squad 💕
         </h2>
-        <p className="text-foreground/50 text-sm mb-10">Carrying the bride to be with all the love</p>
+        <p className="text-foreground/50 text-xs mb-5">Carrying the bride to be with all the love</p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5 w-full mb-8">
+        <div className="grid grid-cols-3 sm:grid-cols-4 gap-3 sm:gap-4 w-full mb-4">
           {squadMembers.map((member) => (
             <div
               key={member.name}
-              className="bg-card border border-border rounded-xl p-4 flex flex-col items-center text-center transition-transform duration-300 hover:scale-105"
+              className="bg-card border border-border rounded-xl p-3 flex flex-col items-center text-center transition-transform duration-300 hover:scale-105"
             >
-              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full mb-2 border-2 border-gold/30 overflow-hidden">
+              <div className="w-14 h-14 sm:w-18 sm:h-18 md:w-20 md:h-20 rounded-full mb-2 border-2 border-gold/30 overflow-hidden">
                 <img
                   src={member.photo}
                   alt={member.name}
                   className="w-full h-full object-cover"
                 />
               </div>
-              <span className="text-gold text-[10px] tracking-widest uppercase mb-1">{member.role}</span>
-              <span className="font-serif text-lg text-foreground mb-1">{member.name}</span>
-              <p className="text-foreground/50 text-[11px] leading-relaxed">{member.tagline}</p>
+              <span className="text-gold text-[9px] sm:text-[10px] tracking-widest uppercase mb-0.5">{member.role}</span>
+              <span className="font-serif text-sm sm:text-lg text-foreground mb-0.5">{member.name}</span>
+              <p className="text-foreground/50 text-[10px] sm:text-[11px] leading-relaxed hidden sm:block">{member.tagline}</p>
             </div>
           ))}
         </div>
