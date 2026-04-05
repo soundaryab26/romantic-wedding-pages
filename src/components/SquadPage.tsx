@@ -40,9 +40,8 @@ const SquadPage = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <span className="text-gold text-[9px] sm:text-[10px] tracking-widest uppercase mb-0.5">{member.role}</span>
               <span className="font-serif text-sm sm:text-lg text-foreground mb-0.5">{member.name}</span>
-              <p className="text-foreground/50 text-[10px] sm:text-[11px] leading-relaxed hidden sm:block">{member.tagline}</p>
+              <p className="text-foreground/50 text-[10px] sm:text-[11px] leading-relaxed">{member.caption}</p>
             </div>
           ))}
         </div>
