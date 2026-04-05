@@ -1,7 +1,7 @@
 const timelineItems = [
   { emoji: "🥂", title: "Arrive & Sparkle", desc: "Walk in and let the evening begin · you're the star tonight" },
   { emoji: "🎀", title: "Bridal Games", desc: "Even a lawyer can't argue her way out of these ones" },
-  { emoji: "🌸", title: "Shower of Love", desc: "Gifts, wishes & happy tears from everyone who adores you" },
+  { emoji: "🌸", title: "Shower of Love", desc: "Wishes & happy tears from everyone who adores you" },
   { emoji: "🎂", title: "Cake & Sweet Moments", desc: "Because every bride deserves dessert & lots of it" },
   { emoji: "📸", title: "Forever Memories", desc: "Photos, laughter & love — memories you'll treasure always" },
 ];

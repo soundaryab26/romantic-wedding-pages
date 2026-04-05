@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import keerthanaBride from "@/assets/keerthana-bride.jpeg";
 
 const InvitePage = () => {
   const starsRef = useRef<HTMLDivElement>(null);
@@ -25,7 +26,9 @@ const InvitePage = () => {
         <div className="absolute bottom-3 left-3 text-gold/40 text-xs">✦</div>
         <div className="absolute bottom-3 right-3 text-gold/40 text-xs">✦</div>
 
-        <div className="w-24 h-24 rounded-full bg-muted mx-auto mb-6 border border-gold/20" />
+        <div className="w-24 h-24 rounded-full mx-auto mb-6 border-2 border-gold/30 overflow-hidden">
+          <img src={keerthanaBride} alt="Keerthana" className="w-full h-full object-cover" />
+        </div>
 
         <p className="text-foreground/40 text-xs tracking-[0.3em] uppercase mb-2">You are invited to</p>
         <h2 className="font-serif text-3xl sm:text-4xl text-foreground font-light mb-1">Keerthana&apos;s</h2>
@@ -37,18 +40,14 @@ const InvitePage = () => {
           <div className="text-foreground/40 text-xs tracking-widest uppercase">Saturday</div>
         </div>
 
-        <div className="grid grid-cols-3 gap-4 mb-8">
+        <div className="grid grid-cols-2 gap-4 mb-8">
           <div>
             <div className="text-foreground/40 text-[10px] tracking-widest uppercase mb-1">Time</div>
             <div className="text-foreground text-sm font-light">3 : 30 PM</div>
           </div>
           <div>
-            <div className="text-foreground/40 text-[10px] tracking-widest uppercase mb-1">Venue</div>
-            <div className="text-gold text-sm font-light">Wanderbite</div>
-          </div>
-          <div>
-            <div className="text-foreground/40 text-[10px] tracking-widest uppercase mb-1">Dress</div>
-            <div className="text-foreground text-sm font-light">Blush & Gold</div>
+            <div className="text-foreground/40 text-[10px] tracking-widest uppercase mb-1">Dress Code</div>
+            <div className="text-foreground text-sm font-light">Bodycon</div>
           </div>
         </div>
 
