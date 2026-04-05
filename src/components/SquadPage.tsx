@@ -8,7 +8,7 @@ import squadSeetha from "@/assets/squad-seetha.jpeg";
 
 const squadMembers = [
   { name: "Soundarya", caption: "Always fashionably late — but walks in like she owns the place 😎👑", photo: squadSoundarya },
-  { name: "Kaviya", caption: "Part-time mom, full-time terror & comedian — deadly combo 😤😂", photo: squadKaviya },
+  { name: "Kaviya", caption: "Had a spreadsheet before anyone else had a clue🙇‍♀️🫶🏻", photo: squadKaviya },
   { name: "Kalaivani", caption: "Available 24/7, no questions asked — you name it, she's already doing it 💪🔥", photo: squadKalaivani },
   { name: "Preethi", caption: "Main character energy on full blast — the vibe is always HER 🎬✨", photo: squadPreethi },
   { name: "Vinitha", caption: "Everyone plans, she executes — the OG get-it-done queen 🗡️💼", photo: squadVinitha },
