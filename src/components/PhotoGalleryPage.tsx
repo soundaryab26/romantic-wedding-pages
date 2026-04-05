@@ -1,11 +1,15 @@
 import keerthanaBride from "@/assets/keerthana-bride.jpeg";
 import keerthanaWings from "@/assets/keerthana-wings.jpeg";
 import keerthanaChic from "@/assets/keerthana-chic.jpeg";
+import keerthanaBeach from "@/assets/keerthana-beach.jpeg";
+import keerthanaGlam from "@/assets/keerthana-glam.jpeg";
 
 const photos = [
   { src: keerthanaBride, caption: "Radiant Bride" },
   { src: keerthanaWings, caption: "Free Spirit" },
   { src: keerthanaChic, caption: "Always Chic" },
+  { src: keerthanaBeach, caption: "Sun Kissed" },
+  { src: keerthanaGlam, caption: "Glamorous" },
 ];
 
 const PhotoGalleryPage = () => {
