@@ -1,3 +1,13 @@
+import keerthanaBride from "@/assets/keerthana-bride.jpeg";
+import keerthanaWings from "@/assets/keerthana-wings.jpeg";
+import keerthanaChic from "@/assets/keerthana-chic.jpeg";
+
+const photos = [
+  { src: keerthanaBride, caption: "Radiant Bride" },
+  { src: keerthanaWings, caption: "Free Spirit" },
+  { src: keerthanaChic, caption: "Always Chic" },
+];
+
 const PhotoGalleryPage = () => {
   return (
     <section className="page-section bg-deep">
@@ -6,15 +16,20 @@ const PhotoGalleryPage = () => {
         Our favourite lawyer,<br />our forever friend ✨
       </h2>
       <div className="grid grid-cols-3 gap-3 max-w-lg px-6">
-        {["Radiant Bride", "Free Spirit", "Always Chic"].map((caption, i) => (
+        {photos.map((photo, i) => (
           <div
             key={i}
-            className={`relative overflow-hidden rounded-lg bg-muted ${i === 0 ? "row-span-2" : ""}`}
+            className={`relative overflow-hidden rounded-lg ${i === 0 ? "row-span-2" : ""}`}
             style={{ minHeight: i === 0 ? "260px" : "120px" }}
           >
+            <img
+              src={photo.src}
+              alt={photo.caption}
+              className="absolute inset-0 w-full h-full object-cover"
+            />
             <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
             <div className="absolute bottom-2 left-0 right-0 text-center">
-              <span className="text-cream text-[10px] tracking-widest uppercase">{caption}</span>
+              <span className="text-cream text-[10px] tracking-widest uppercase">{photo.caption}</span>
             </div>
           </div>
         ))}
