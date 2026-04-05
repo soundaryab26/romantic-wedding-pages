@@ -7,13 +7,13 @@ import squadMichlin from "@/assets/squad-michlin.jpeg";
 import squadSeetha from "@/assets/squad-seetha.jpeg";
 
 const squadMembers = [
-  { name: "Soundarya", caption: "The one who acts calm but is secretly panicking inside 😌🔥", photo: squadSoundarya },
-  { name: "Kaviya", caption: "Will cry at the wedding before the bride does 😭💀", photo: squadKaviya },
-  { name: "Kalaivani", caption: "Shows up late but makes an entrance worth waiting for 💃✨", photo: squadKalaivani },
-  { name: "Preethi", caption: "Has more energy than the DJ at 2 AM 🔥🎤", photo: squadPreethi },
-  { name: "Vinitha", caption: "Already planning what to wear to the next 3 weddings 👗😂", photo: squadVinitha },
-  { name: "Michlin", caption: "The emotional support bestie — tissues always ready 💖🥺", photo: squadMichlin },
-  { name: "Seetha", caption: "First on the dance floor, last to leave 🎶💃", photo: squadSeetha },
+  { name: "Soundarya", caption: "Always fashionably late — but walks in like she owns the place 😎👑", photo: squadSoundarya },
+  { name: "Kaviya", caption: "Part-time mom, full-time terror & comedian — deadly combo 😤😂", photo: squadKaviya },
+  { name: "Kalaivani", caption: "Available 24/7, no questions asked — you name it, she's already doing it 💪🔥", photo: squadKalaivani },
+  { name: "Preethi", caption: "Main character energy on full blast — the vibe is always HER 🎬✨", photo: squadPreethi },
+  { name: "Vinitha", caption: "Everyone plans, she executes — the OG get-it-done queen 🗡️💼", photo: squadVinitha },
+  { name: "Michlin", caption: "The glue of the gang — legendary water dancer, certified crybaby 💧😭💃", photo: squadMichlin },
+  { name: "Seetha", caption: "Flows like water — adapts, hydrates & holds the squad together 🌊💖", photo: squadSeetha },
 ];
 
 const SquadPage = () => {
