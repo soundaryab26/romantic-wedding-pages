@@ -1,14 +1,10 @@
-import keerthanaBride from "@/assets/keerthana-bride.jpeg";
 import keerthanaWings from "@/assets/keerthana-wings.jpeg";
+import keerthanaNature from "@/assets/keerthana-nature.jpeg";
 import keerthanaChic from "@/assets/keerthana-chic.jpeg";
-import keerthanaBeach from "@/assets/keerthana-beach.jpeg";
-import keerthanaGlam from "@/assets/keerthana-glam.jpeg";
 
 const photos = [
-  { src: keerthanaBride, caption: "Radiant Bride" },
   { src: keerthanaWings, caption: "Free Spirit" },
-  { src: keerthanaBeach, caption: "Sun Kissed" },
-  { src: keerthanaGlam, caption: "Glamorous" },
+  { src: keerthanaNature, caption: "At Peace" },
   { src: keerthanaChic, caption: "Always Chic" },
 ];
 
@@ -31,21 +27,8 @@ const PhotoGalleryPage = () => {
         </div>
 
         {/* Row 2: Two side by side */}
-        <div className="grid grid-cols-2 gap-3 mb-3">
-          {photos.slice(1, 3).map((photo, i) => (
-            <div key={i} className="relative overflow-hidden rounded-xl aspect-[3/4]">
-              <img src={photo.src} alt={photo.caption} className="w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
-              <span className="absolute bottom-3 left-0 right-0 text-center text-cream text-[10px] tracking-[0.2em] uppercase font-light">
-                {photo.caption}
-              </span>
-            </div>
-          ))}
-        </div>
-
-        {/* Row 3: Two side by side */}
         <div className="grid grid-cols-2 gap-3">
-          {photos.slice(3, 5).map((photo, i) => (
+          {photos.slice(1, 3).map((photo, i) => (
             <div key={i} className="relative overflow-hidden rounded-xl aspect-[3/4]">
               <img src={photo.src} alt={photo.caption} className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
