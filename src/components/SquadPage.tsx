@@ -7,13 +7,13 @@ import squadMichlin from "@/assets/squad-michlin.jpeg";
 import squadSeetha from "@/assets/squad-seetha.jpeg";
 
 const squadMembers = [
-  { name: "Soundarya", role: "The Co-ord 🎀", tagline: "Made everything match — including the vibes", photo: squadSoundarya },
-  { name: "Kaviya", role: "The Planner 📋", tagline: "Had a spreadsheet before anyone else had a clue", photo: squadKaviya },
-  { name: "Kalaivani", role: "Venue Hunter 📍", tagline: "Found Wanderbite and secured the magic spot", photo: squadKalaivani },
-  { name: "Preethi", role: "The Hype Girl 🔥", tagline: "Energy that never runs out — ever", photo: squadPreethi },
-  { name: "Vinitha", role: "The Stylist 👗", tagline: "Made sure the bride looked like a dream", photo: squadVinitha },
-  { name: "Michlin", role: "The Bestie 💖", tagline: "Always there with the perfect pep talk", photo: squadMichlin },
-  { name: "Seetha", role: "The Vibe Queen 🎶", tagline: "Set the mood and kept it going all night", photo: squadSeetha },
+  { name: "Soundarya", caption: "The one who acts calm but is secretly panicking inside 😌🔥", photo: squadSoundarya },
+  { name: "Kaviya", caption: "Will cry at the wedding before the bride does 😭💀", photo: squadKaviya },
+  { name: "Kalaivani", caption: "Shows up late but makes an entrance worth waiting for 💃✨", photo: squadKalaivani },
+  { name: "Preethi", caption: "Has more energy than the DJ at 2 AM 🔥🎤", photo: squadPreethi },
+  { name: "Vinitha", caption: "Already planning what to wear to the next 3 weddings 👗😂", photo: squadVinitha },
+  { name: "Michlin", caption: "The emotional support bestie — tissues always ready 💖🥺", photo: squadMichlin },
+  { name: "Seetha", caption: "First on the dance floor, last to leave 🎶💃", photo: squadSeetha },
 ];
 
 const SquadPage = () => {
@@ -40,9 +40,8 @@ const SquadPage = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <span className="text-gold text-[9px] sm:text-[10px] tracking-widest uppercase mb-0.5">{member.role}</span>
               <span className="font-serif text-sm sm:text-lg text-foreground mb-0.5">{member.name}</span>
-              <p className="text-foreground/50 text-[10px] sm:text-[11px] leading-relaxed hidden sm:block">{member.tagline}</p>
+              <p className="text-foreground/50 text-[10px] sm:text-[11px] leading-relaxed">{member.caption}</p>
             </div>
           ))}
         </div>

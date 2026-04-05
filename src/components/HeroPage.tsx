@@ -24,7 +24,7 @@ const HeroPage = ({ onBeginJourney }: HeroPageProps) => {
     <section className="page-section bg-background cursor-pointer" onClick={onBeginJourney}>
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${heroBg})`, filter: "blur(2px) brightness(0.4)" }}
+        style={{ backgroundImage: `url(${heroBg})`, filter: "blur(2px) brightness(0.4)", backgroundPosition: "center 20%" }}
       />
       <div className="absolute inset-0 bg-background/60" />
 
