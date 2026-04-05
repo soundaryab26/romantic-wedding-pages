@@ -1,3 +1,5 @@
+import keerthanaBeach from "@/assets/keerthana-beach.jpeg";
+
 const StoryPage = () => {
   const traits = ["⚖️ Advocate", "🌸 Dreamer", "☀️ Sunshine", "👑 Bride", "💛 Our person"];
 
@@ -11,11 +13,14 @@ const StoryPage = () => {
           She argued her<br />way into our<br />
           <span className="text-gold-gradient">hearts forever.</span>
         </h2>
+        <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full overflow-hidden border-2 border-gold/20 mb-6 float-right ml-4">
+          <img src={keerthanaBeach} alt="Keerthana" className="w-full h-full object-cover" />
+        </div>
         <p className="text-foreground/60 text-sm sm:text-base leading-relaxed mb-8 max-w-md">
           A brilliant <strong className="text-foreground/80">lawyer</strong> by day, the most loyal friend by night —
           she&apos;s the one who brings everyone together and never lets go.
         </p>
-        <div className="flex flex-wrap gap-2 mb-8">
+        <div className="flex flex-wrap gap-2 mb-8 clear-both">
           {traits.map((trait) => (
             <span
               key={trait}
