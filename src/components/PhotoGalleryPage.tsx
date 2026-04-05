@@ -23,8 +23,8 @@ const PhotoGalleryPage = () => {
         {photos.map((photo, i) => (
           <div
             key={i}
-            className={`relative overflow-hidden rounded-lg ${i === 0 ? "row-span-2" : ""}`}
-            style={{ minHeight: i === 0 ? "260px" : "120px" }}
+            className={`relative overflow-hidden rounded-lg ${i === 0 ? "row-span-2 col-span-2" : ""}`}
+            style={{ minHeight: i === 0 ? "280px" : "140px" }}
           >
             <img
               src={photo.src}
