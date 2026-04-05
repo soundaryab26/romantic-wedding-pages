@@ -35,15 +35,15 @@ const InvitePage = () => {
         <p className="font-serif text-xl text-gold-gradient italic mb-6">Bridal Shower</p>
 
         <div className="mb-6">
-          <div className="font-serif text-5xl text-gold font-light">03</div>
-          <div className="text-foreground/60 text-sm tracking-wider">May · 2025</div>
-          <div className="text-foreground/40 text-xs tracking-widest uppercase">Saturday</div>
+          <div className="font-serif text-5xl text-gold font-light">26</div>
+          <div className="text-foreground/60 text-sm tracking-wider">April · 2026</div>
+          <div className="text-foreground/40 text-xs tracking-widest uppercase">Sunday</div>
         </div>
 
         <div className="grid grid-cols-2 gap-4 mb-8">
           <div>
             <div className="text-foreground/40 text-[10px] tracking-widest uppercase mb-1">Time</div>
-            <div className="text-foreground text-sm font-light">3 : 30 PM</div>
+            <div className="text-foreground text-sm font-light">1:30 PM</div>
           </div>
           <div>
             <div className="text-foreground/40 text-[10px] tracking-widest uppercase mb-1">Dress Code</div>
